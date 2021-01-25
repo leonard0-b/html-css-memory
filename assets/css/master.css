@@ -5,8 +5,10 @@
 }
 
 body {
-  width: 70%;
+  width: 1490px;
+  height: 1300px;
   margin: auto;
+  background-color: lightblue;
 }
 
 header {
@@ -15,11 +17,16 @@ header {
   margin-bottom: 150px;
 }
 
+.container {
+  margin: auto;
+}
+
 .row {
   height: 400px;
   width: 1490px;
   position: relative;
   background-color: lightblue;
+  margin-bottom: 50px;
 }
 
 .card {
@@ -29,7 +36,7 @@ header {
   border: 1px solid black;
 }
 
-.top2 {
+.mid1 {
   background-color: blue;
   border: 1px solid black;
   position: absolute;
@@ -37,7 +44,7 @@ header {
   left: 380px;
 }
 
-.top3 {
+.mid2 {
   background-color: green;
   border: 1px solid black;
   position: absolute;
@@ -45,14 +52,10 @@ header {
   right: 380px;
 }
 
-.top4 {
+.right {
   background-color: yellow;
   border: 1px solid black;
   position: absolute;
   top: 0;
   right: 0;
-}
-
-
-
 }
